@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Junjie-Chen/fetch-resource/issues"
   },
-  "homepage": "https://github.com/Junjie-Chen/fetch-resource#readme"
+  "homepage": "https://github.com/Junjie-Chen/fetch-resource#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
 }
