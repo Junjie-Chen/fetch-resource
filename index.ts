@@ -17,6 +17,12 @@ interface Album {
   title: string;
 }
 
+const log = (id: number, title: string) =>
+  console.log(`
+    The id of the album: ${id}
+    The title of the album: ${title}
+  `);
+
 fetch(resource, init)
   .then(response => {
     if (!response.ok) {
@@ -27,4 +33,6 @@ fetch(resource, init)
   })
   .then(data => {
     const { id, title } = data as Album;
+
+    log(id, title);
   });
