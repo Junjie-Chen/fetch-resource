@@ -1,0 +1,20 @@
+{
+  "name": "fetch-resource",
+  "version": "1.0.0",
+  "description": "_Fetch a resource by making a network request in TypeScript_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junjie-Chen/fetch-resource.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Junjie-Chen/fetch-resource/issues"
+  },
+  "homepage": "https://github.com/Junjie-Chen/fetch-resource#readme"
+}
