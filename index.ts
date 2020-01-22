@@ -12,6 +12,11 @@ const init = {
   referrerPolicy: 'no-referrer'
 };
 
+interface Album {
+  id: number;
+  title: string;
+}
+
 fetch(resource, init)
   .then(response => {
     if (!response.ok) {
@@ -19,4 +24,7 @@ fetch(resource, init)
     }
 
     return response.json();
+  })
+  .then(data => {
+    const { id, title } = data as Album;
   });
